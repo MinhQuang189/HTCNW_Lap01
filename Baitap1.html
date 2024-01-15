@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+
+        /* Layout 1 */
+
+        .wrapper-1 {
+            background-color: rgb(206, 172, 172);
+            margin-bottom: 20px;
+        }
+
+        .header-1 {
+            height: 30px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .section-1 {
+            height: 150px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+
+        .footer-1 {
+            border: 1px solid black;
+            height: 30px;
+            text-align: center;
+        }
+
+
+        /* Layoyut 2 */
+
+        .wrapper-2 {
+            background-color: rgb(167, 248, 221);
+        }
+
+        .header-2 {
+            height: 30px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        
+        .empty-div-2 {
+            height: 150px;
+            display: flex;
+        }
+
+        .nav-2 {
+            width: 25%;
+            border-left: 1px solid black;
+
+        }
+
+        .empty-div-2 div:nth-child(2) {
+            width: 50%;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+
+        }
+
+        .section-2 {
+            width: 25%;
+            border-left: 1px solid black;
+        }
+
+        .footer-2 {
+            text-align: center;
+            border: 1px solid black;
+        }
+
+
+        /* Layout 3 */
+
+        .wrapper-3 {
+            background-color: rgb(213, 238, 154);
+            margin-bottom: 20px;
+        }
+
+        .header-3, .menu-3 {
+            text-align: center;
+            height: 30px;
+            border: 1px solid black;
+        }
+
+        .header-3 {
+            border-bottom: none;
+        }
+
+        .empty-div-3 {
+            display: flex;
+            height: 150px;
+        }
+
+        .nav-3, .section-3 {
+            width: 25%;
+            border-left: 1px solid black;
+        }
+
+        .empty-div-3 div:nth-child(2) {
+            width: 50%;
+            border-left: 1px solid black;
+        }
+
+        .section-3 {
+            border-right: 1px solid black;
+        }
+
+        .footer-3 {
+            height: 30px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        
+        /* Layout 4 */
+        
+        .wrapper-4 {
+            background-color: rgb(116, 136, 248);
+        }
+
+        .header-4 {
+            height: 30px;
+            border: 1px solid black;
+        }
+
+        .empty-div-4 {
+            height: 150px;
+            display: flex;
+        }
+        
+        .nav-4 {
+            width: 30%;
+            border-left: 1px solid black;
+        }
+
+        .section-4 {
+            width: 70%;
+            padding: 0 1em;
+        }
+
+        .nav-4, .section-4 {
+            border-right: 1px solid black;
+        }
+
+        .article-4 {
+            background-color: rgb(240, 231, 231);
+            border: 1px solid black;
+            height: 120px;
+        }
+
+        .footer-4 {
+            height: 30px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Layout 1 -->
+    <div class="wrapper-1">
+        <div class="header-1">
+            header
+        </div>
+
+        <div class="section-1">
+            section
+        </div>
+
+        <div class="footer-1">
+            footer
+        </div>
+    </div>
+
+    <!-- Layout 2 -->
+    <div class="wrapper-2">
+        <div class="header-2">
+            header
+        </div>
+        
+        <div class="empty-div-2">
+            <div class="nav-2">
+                nav
+            </div>
+
+            <div></div>
+    
+            <div class="section-2">
+                section
+            </div>
+        </div>
+
+        <div class="footer-2">
+            footer
+        </div>
+
+    </div>
+
+    <!-- Layout 3 -->
+    <div class="wrapper-3">
+        <div class="header-3">
+            header
+        </div>
+
+        <div class="menu-3">
+            menu
+        </div>
+
+        <div class="empty-div-3">
+            <div class="nav-3">
+                nav
+            </div>
+
+            <div></div>
+    
+            <div class="section-3">
+                section
+            </div>
+        </div>
+
+        <div class="footer-3">
+            Footer
+        </div>
+    </div>
+
+    <!-- Layout 4 -->
+    <div class="wrapper-4">
+        <div class="header-4">
+            header
+        </div>
+
+        <div class="empty-div-4">
+            <div class="nav-4">
+                nav
+            </div>
+
+            <div class="section-4">
+                section
+                <div class="article-4">
+                    article
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-4">
+            footer
+        </div>
+    </div>
+</body>
+</html>
